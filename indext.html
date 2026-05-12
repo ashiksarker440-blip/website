@@ -2,125 +2,576 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/style.css">
 
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <div class="container-fluid top-section sticky-top">
-        <header>
-            <div><img src="assets/image/image.webp" class="logo"></div>
+  <div class="container bg-success">
+    <div class="row ">
+      <div class="coi-sm-2">
+        <nav class="navbar">
+          <div class="container-fluid">
 
-            <div class="search-box">
-                <input type="text" placeholder="Search">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+              </div>
             </div>
-        </header>
-        <nav>
-            <a href="#">PAINTS</a>
-            <a href="#">WATERPROOFING</a>
-            <a href="#">IDEAS</a>
-            <a href="#">SERVICES</a>
-            <a href="#">BLOGS</a>
+          </div>
         </nav>
+      </div>
+      <div class="col-sm-2 text-end">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="col-sm-7">
+
+      </div>
+      <div class="col-sm-1">
+        <a href="">Bangla</a>
+      </div>
     </div>
-    <div class="container-fluid get">
+  </div>
+  <!--banner-->
+  <div class="container">
+    <div class="row position-relative">
+      <div class="col-sm-12">
+        <img src="assets/image/bb_banner.jpg" alt="">
+      </div>
+      <div class="col-sm-6 bg-white position-absolute end-0 bottom-0">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Monetary Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Financial System</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FX Market</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">G-Sec Market</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Publication</a>
+          </li>
 
-        <div class="small-title">GET IN TOUCH</div>
-
-        <div class="main-title">
-            we'd love to hear from you
-        </div>
-
-        <div class="contact-section">
-            <div class="left">
-                <h3>HEAD OFFICE</h3>
-                <P>
-                    citizen tower,<br>
-                    227b bir uttam mir shawdat sarak,<br>
-
-                    Dhaka 1208, Bangladesh,<br>
-
-                    corporate iffice number:
-                    +880 2226602568,
-                    +880 2226602567<br>
-
-                    customer care Number:
-                    +8809612003355<br>
-
-                    Fax: +880-2-9881186.
-                </P>
-                <a href="#" class="direction">GET DIRECTION</a>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--caro part-->
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-sm-8">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/image/banner1.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="right">
-                <p>
-                    <strong>ASIAN PAINTS BANGLADESH HELPLINE NUMBER:</strong><br>
-                    09612003355<br>
-                    <strong>EMALI ADDRESS:</strong><br>
-                    WEASSURE.APBL@ASIANPAINTS.COM<br>
-                    *toll free service,applicable in bangladesh only.
-                </p>
+            <div class="carousel-item">
+              <img src="assets/image/banner2.jpg" class="d-block w-100" alt="...">
             </div>
-        </div>
-        <div class="container help">
-            <h1>Need help with your paintiog needs?</h1>
-
-            <p>
-                Fill the form below to book a free site evaluation by an asian paints esy paintign serivce espaer.
-            </p>
-asdfasdfasdff sadfsadf
-            <form class="form-inline" role="form">
-                <div class="form-group">
-                    <label class="sr-only" for="name"></label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                    <label class="sr-only" for="name"></label>
-                    <input type="text" class="form-control" id="emali" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label class="sr-only" for="name"></label>
-                    <input type="text" class="form-control" id="namber" placeholder="mobil number">
-                </div>
-                <div class="form-group">
-                    <label class="sr-only" for="name"></label>
-                    <input type="text" class="form-control" id="namber" placeholder="pincode">
-                </div>
-            </form>
-            <button class="btn">ENQUIRE NOW</button>
-            </form>
-        </div>
-        <div class="container">
-            <div class="box">
-                <h2>Need help to resolve your product complaint ?</h2>
-
-                <p>Connect with our self-help bot over whatsapp</p>
-
-                <a href="#" class="btn">CLICK HERE</a>
-                <P>
-                    Alternately, say hi to
-                    <span class="number">9152244522</span>
-                </P>
+            <div class="carousel-item">
+              <img src="assets/image/banner3.jpg" class="d-block w-100" alt="...">
             </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="divider">
-            <span>OR</span>
+      </div>
+      <div class="col-sm-4">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/image/md_mostaqur_rahman.jpg" class="img-fluid rounded-start w-80 pt-5" alt="...">
+            </div>
+            <div class="col-md-8">
+              <h6 class="bg-success text-white w-100">Honorable Governor</h6>
+              <div class="card-body">
+                <h5 class="card-title">Md Mostaqur Rahman FCMA</h5>
+                <p class="card-text">Honorable Governor of Bangladesh Bank</p>
+                <a href="">More..</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="box">
-            <h2>Need help on paints.selection</h2>
-            <p>
-                connect with our experts for more information on paont selection
-            </p>
-            <a href="mailto:weassure.apbl@asianpaints.com" class="email">
-                weassure.apbl@asianpaints.com
-            </a>
-        </div>
+      </div>
+    </div>
+  </div>
+  <!--marque-->
+  <div class="container pt-4">
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="" class="btn btn-success">Recent news</a>
+      </div>
+      <div class="col-sm-10">
+        <marquee behavior="" direction="up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, quam!
+        </marquee>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| MONETARY POLICY</h5>
+                    <p class="card-text">>MPS(January-June,2026) New</p>
+                    <p class="card-text">>Monetary Policy</p>
+                    <p class="card-text">>MPC Resolution New</p>
+                    <p class="card-text">>Repo Information</p>
+                    <p class="card-text">>BB Bill Auction</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| MEDIA $ PRESS RELEASE</h5>
+                    <p class="card-text">>Circulars/Circular Letters</p>
+                    <p class="card-text">>Press Release</p>
+                    <p class="card-text">>Regulations And Guidelines</p>
+                    <p class="card-text">>Procurements Undeerway</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| INVESTMENT FACILITY</h5>
+                    <p class="card-text">>Facilities/Incentives</p>
+                    <p class="card-text">>Inward Remmittance Facilities</p>
+                    <p class="card-text">>NRB Bond</p>
+                    <p class="card-text">>Prizebond | Sanchayapatra</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| ECONOMIC DATA</h5>
+                    <p class="card-text">>Wage Eamer's Remittance inflow</p>
+                    <p class="card-text">>BOP,Export & import</p>
+                    <p class="card-text">>Nsop</p>
+                    <p class="card-text">>Recent upload</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| G-SEC MARKET</h5>
+                    <p class="card-text">>Government Securities market</p>
+                    <p class="card-text">>Primary Auction of Treasury Bill & Bond</p>
+                    <p class="card-text">>G-sec OMS | YIM Curve | MTM</p>
+                    <p class="card-text">>BD Govt Inestment Sukuk(BGIS)</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| PAYMENT SYSTEMS</h5>
+                    <p class="card-text">>Bangladesh Payment Systems Report(BPSR)</p>
+                    <p class="card-text">>Half-Yearly Payment Platform</p>
+                    <p class="card-text">>Trend Analysis Of Payment Platforms</p>
+                    <p class="card-text">>National payment Data</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| LINKS</h5>
+                    <p class="card-text">> BFIU Website</p>
+                    <p class="card-text">> BBTA Webportal</p>
+                    <p class="card-text">> SME Portal</p>
+                    <p class="card-text">>E-Tender | E-Recruitment</p>
+                    <p class="card-text">> BIDA One Stop Service (OSS) Portal</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">|Financial Stability</h5>
+                    <p class="card-text">>Financial Stability Committee</p>
+                    <p class="card-text">>Macroprudential Supervision</p>
+                    <p class="card-text">>Guidelines, Circulars and Reports</p>
+                    <p class="card-text">>Contemporary Financial Stability Issues</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| INNOVATION CORNER</h5>
+                    <p class="card-text">>WINNOVATION CORNER</p>
+                    <p class="card-text">>Innovation Action Plan (2023-2024)</p>
+                    <p class="card-text">>Innovation Guidelines (2023-2024)</p>
+                    <p class="card-text">>Progress Report</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| National Integrity Strategy</h5>
+                    <p class="card-text">>Ethics committee</p>
+                    <p class="card-text">>Implementation plan</p>
+                    <p class="card-text">>Integrity Award (FY 2020-21) winner</p>
+                    <p class="card-text">> Others/p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| Citizen Charter</h5>
+                    <p class="card-text">> Citizen Charter of Bangladesh Bank</p>
+                    <p class="card-text">>Focal Point | Monitoring Committee</p>
+                    <p class="card-text">>Annual Workplan (2023-2024)</p>
+                    <p class="card-text">>Recent Information</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| National ICT Policy</h5>
+                    <p class="card-text">> National ICT Policy</p>
+                    <p class="card-text">>ICT Focal Point</p>
+                    <p class="card-text">>Implementation Committee</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| SERVICES</h5>
+                    <p class="card-text">> E-Services</p>
+                    <p class="card-text">>Customer Complaints</p>
+                    <p class="card-text">> BB Forms</p>
+                    <p class="card-text">>Claim your money</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-alipay" viewBox="0 0 16 16">
+                    <path
+                      d="M2.541 0H13.5a2.55 2.55 0 0 1 2.54 2.563v8.297c-.006 0-.531-.046-2.978-.813-.412-.14-.916-.327-1.479-.536q-.456-.17-.957-.353a13 13 0 0 0 1.325-3.373H8.822V4.649h3.831v-.634h-3.83V2.121H7.26c-.274 0-.274.273-.274.273v1.621H3.11v.634h3.875v1.136h-3.2v.634H9.99c-.227.789-.532 1.53-.894 2.202-2.013-.67-4.161-1.212-5.51-.878-.864.214-1.42.597-1.746.998-1.499 1.84-.424 4.633 2.741 4.633 1.872 0 3.675-1.053 5.072-2.787 2.08 1.008 6.37 2.738 6.387 2.745v.105A2.55 2.55 0 0 1 13.5 16H2.541A2.55 2.55 0 0 1 0 13.437V2.563A2.55 2.55 0 0 1 2.541 0" />
+                    <path
+                      d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
+                  </svg>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">| ECONOMIC DATA</h5>
+                    <p class="card-text">>Wage Eamer's Remittance inflow</p>
+                    <p class="card-text">>BOP,Export & import</p>
+                    <p class="card-text">>Nsop</p>
+                    <p class="card-text">>Recent upload</p>
+                    <p class="card-text"><small class="text-body-secondary"></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+        </div>
+      </div>
+      <!--sidebar-->
+      <div class="col-sm-3 sidebar">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3 class="Security">ICT Security Alert</h3>
+            <p>ICT Security Advisories & Alerts</p>
+            <br>
+            <h4>CUSTOMERS'INTEREST<br>PROTECTION CENTER(CIPC)</h4><br>
+            <h1>Call: 16236</h1>
+            <a href="">Email: bb.cipc@bb.org.bd</a>
+            <p>Download Mobile App <br> Submit Online</p>
+            <a href="" class="text-end float-end">View all →</a> <br>
+            <hr>
+            <h5>Fx market sopt Exchange Rate <br>(Reference Rate in USDBDT)</h5>
+            <p>11 may, 2026<br>(Operation till 11:00 AM)</p>
+            <h1>122.7914</h1>
+            <a href="" class="text-end float-end">View all →</a><br><br>
+            <hr>
+            <h5 class="call">CALL MONEY RATE</h5>
+            <p>11 May 2026</p>
+            <p class="aver"> Average interst Rate</p>
+            <h2>10.03</h2>
+            <a href="" class="text-end float-end">View all →</a><br><br>
+            <hr>
+            <h6 class="money">MONEY MAREKT REFERENCE <br>RATE (MMRR)</h6>
+              <p>11 May 2026 <br> DOMMR (O/N) <br>9.98 <br>BOFR (O/N) <br>10.01</p>
+              <a href="" class="text-end float-end">View all →</a><br><br>
+              <h6 class="upco">UPCOMING AUCTIONS</h6>
+              <hr class="hr">
+            <div>
+              <p class="bond">BOND</p>
+              <P class="date">May,2026</P>
+              <p class="namber">12</p>
+            </div>
+            <hr class="hr">
+            <hr class="hr">
+            <div>
+              <p class="bond">BOND</p>
+              <P class="date">May,2026</P>
+              <p class="namber">14</p>
+            </div>
+            <hr class="hr">
+            <p class="emer">EMERGENCY HOTLINE</p>
+            <hr class="hr">
+            <div>
+              <img src="assets/image/bb.jpg"> 
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
